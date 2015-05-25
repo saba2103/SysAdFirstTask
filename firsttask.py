@@ -7,7 +7,7 @@ import os
 
 i=1;
 
-while i<=10:
+while i<=100:
     if not os.path.exists('C:/Users/Ammu/Desktop/'+'folder'+str(i)):
         os.mkdir('C:/Users/Ammu/Desktop/'+'folder'+str(i),0o755)
     f=open('C:/Users/Ammu/Desktop/'+'folder'+str(i)+'/folder'+str(i)+'.txt','a')
